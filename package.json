@@ -1,6 +1,6 @@
 {
   "name": "generator-bdb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "homepage": "",
   "author": {
@@ -9,7 +9,10 @@
     "url": ""
   },
   "files": [
-    "generators", "app", "advertisment", "webpack"
+    "generators",
+    "app",
+    "advertisment",
+    "webpack"
   ],
   "main": "generators/index.js",
   "keywords": [
