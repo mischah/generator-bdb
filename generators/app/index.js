@@ -49,10 +49,11 @@ module.exports = yeoman.Base.extend({
 
   writing: function () {
     this.fs.copy(
-      this.templatePath(this.props.project[0]),
+      this.templatePath(this.props.project[0]+'/**/*'),
       this.destinationPath('./')
     );
 
+    // https://stackoverflow.com/questions/24844951/whats-the-recommended-way-to-copy-multiple-dotfiles-with-yeoman
     // Copy all dotfiles
     this.fs.copy(
       this.templatePath(this.props.project[0]+'/.*'),
