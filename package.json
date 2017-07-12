@@ -9,7 +9,7 @@
     "url": ""
   },
   "files": [
-    "generators", "app", "advertisment", "webpack", "gulpfile.babel.js"
+    "generators", "app", "advertisment", "webpack"
   ],
   "main": "generators/index.js",
   "keywords": [
