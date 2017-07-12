@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import "variable";
+@import "mixins";
+
+#banner{
+	width: $banner-width;
+	height: $banner-height;
+	background: $banner-bk;
+	box-sizing: border-box;
+	border: $banner-border;
+}
+
+
+#frames{
+	@include hundred;
+	color: white;
+	position: relative;
+	.frame{
+		display: none;
+		font-family: 'Roboto Condensed', sans-serif;
+		text-align: center;
+		.intro_text{
+			font-size: 2em;
+		}
+		.main_content{
+			font-size: 1em;
+		}
+	}
+}
