@@ -9,11 +9,7 @@
     "url": ""
   },
   "files": [
-    "generators",
-    "app",
-    "advertisment",
-    "webpack",
-    "src",
+    "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
