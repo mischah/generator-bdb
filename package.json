@@ -12,11 +12,11 @@
     "generators",
     "app",
     "advertisment",
-    "webpack"
+    "webpack",
+    "src",
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
     "yeoman-generator"
   ],
   "dependencies": {
