@@ -10,12 +10,7 @@
   },
   "files": [
     "generators",
-    "generators/app",
-    "generators/app/templates",
-    "generators/app/templates/advertisment",
-    "generators/app/templates/webpack",
-    "generators/app/templates/webpack/gulpfile.babel.js",
-    "generators/app/templates/webpack/src"
+    "gulpfile.babel.js"
   ],
   "main": "generators/index.js",
   "keywords": [
